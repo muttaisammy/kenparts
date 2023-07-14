@@ -3,6 +3,7 @@ import {connect} from 'react-redux';
 import { fetchFiltredCars,turnOnHomefilter  } from '../actions';  
 import { withRouter } from 'react-router';
 import $ from 'jquery';
+
 class SearchBarHome extends Component {
 
     constructor(props){

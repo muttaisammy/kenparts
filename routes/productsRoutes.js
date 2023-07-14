@@ -3,7 +3,7 @@ const fetchedProducts = require('../products.js');
 module.exports = app => {
   app.get('/api/products/:category',(req, res) => {
     res.send(
-      fetchedProducts.filter((product)=>product. == (req.url.split(':')[1]))
+      fetchedProducts.filter((product)=>product == (req.url.split(':')[1]))
     );
   });
 
